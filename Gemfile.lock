@@ -36,8 +36,11 @@ GEM
     mime-types-data (3.2016.0221)
     multi_json (1.11.2)
     netrc (0.11.0)
+    nio4r (2.5.2)
     pony (1.11)
       mail (>= 2.0)
+    puma (4.3.5)
+      nio4r (~> 2.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -106,6 +109,7 @@ DEPENDENCIES
   compass
   faker
   pony
+  puma
   rake
   rspec (~> 3.5.0)
   sauce_whisk (~> 0.1.0)
