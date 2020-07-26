@@ -12,6 +12,7 @@ gem 'pony'
 gem 'faker'
 gem 'uuid'
 gem 'puma'
+gem 'rack'
 
 group :test do
   gem 'selenium-webdriver', '~> 3.4.0'
